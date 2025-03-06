@@ -1,0 +1,38 @@
+.homepage-container {
+    display: flex;
+
+    .hompage-img img {
+        width: 100%;
+    }
+
+    .homepage-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 10vh;
+    }
+
+    .title-1 {
+        font-size: 70px;
+        font-weight: 600;
+    }
+
+    .title-2 {
+        font-size: 20px;
+    }
+
+    .title-3 {
+        button {
+            border-radius: 5px;
+            padding: 0 15px;
+            border: 1px solid rgb(80, 79, 79);
+            background-color: black;
+            color: white;
+            height: 40px;
+
+            &:hover {
+                background-color: rgb(44, 43, 43);
+            }
+        }
+    }
+}
